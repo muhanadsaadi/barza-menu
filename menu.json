@@ -1,7 +1,7 @@
 {
   "categories": [
     { "id": "hot",      "name_ar": "مشروبات ساخنة", "name_en": "Hot Drinks",  "icon": "☕" },
-    { "id": "cold",     "name_ar": "مشروبات باردة", "name_en": "Cold Drinks", "icon": "🧊" },
+    { "id": "cold",     "name_ar": "مشروبات باردة", "name_en": "Cold Drinks", "icon": "🥤" },
     { "id": "sweets",   "name_ar": "حلويات",        "name_en": "Sweets",      "icon": "🍯" },
     { "id": "breakfast","name_ar": "فطور",          "name_en": "Breakfast",   "icon": "🍳" },
     { "id": "sandwich", "name_ar": "سندويشات",      "name_en": "Sandwiches",  "icon": "🥪" }
