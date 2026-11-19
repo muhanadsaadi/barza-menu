@@ -24,6 +24,9 @@
 
 * { box-sizing: border-box; }
 
+/* Make sure the HTML "hidden" attribute always wins over display:flex/grid below */
+[hidden] { display: none !important; }
+
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
