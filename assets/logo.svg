@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sand Palm Café (fictional demo logo)">
+  <rect width="64" height="64" rx="14" fill="#0F5257"/>
+  <ellipse cx="32" cy="50" rx="22" ry="6" fill="#D9962B"/>
+  <path d="M32 48 C31 38 31 30 33 22" stroke="#FBF7F0" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M33 22 C26 16 18 18 14 24 C20 21 27 21 33 22Z M33 22 C40 16 48 18 51 24 C45 21 39 21 33 22Z M33 22 C30 14 24 11 18 12 C24 14 29 17 33 22Z M33 22 C37 14 43 11 49 13 C43 15 37 17 33 22Z" fill="#FBF7F0"/>
+</svg>
