@@ -1,0 +1,26 @@
+{
+  "name_ar": "مقهى نخلة الرمل",
+  "name_en": "Sand Palm Café",
+  "tagline_ar": "قهوة مختصة وحلويات عُمانية",
+  "tagline_en": "Specialty coffee & Omani sweets",
+  "logo": "assets/logo.svg",
+  "whatsapp": "96876632622",
+  "currency_ar": "ر.ع.",
+  "currency_en": "OMR",
+  "location_ar": "مسقط (عنوان تجريبي)",
+  "location_en": "Muscat (demo address)",
+  "hours": {
+    "open": "07:00",
+    "close": "00:00",
+    "label_ar": "يومياً ٧ص – ١٢م",
+    "label_en": "Daily 7 AM – 12 AM"
+  },
+  "colors": {
+    "primary": "#0F5257",
+    "accent": "#D9962B",
+    "background": "#FBF7F0",
+    "surface": "#FFFFFF",
+    "text": "#1F2A2B"
+  },
+  "demo": true
+}

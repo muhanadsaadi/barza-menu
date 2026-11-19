@@ -1,0 +1,113 @@
+{
+  "categories": [
+    { "id": "hot",      "name_ar": "مشروبات ساخنة", "name_en": "Hot Drinks",  "icon": "☕" },
+    { "id": "cold",     "name_ar": "مشروبات باردة", "name_en": "Cold Drinks", "icon": "🧊" },
+    { "id": "sweets",   "name_ar": "حلويات",        "name_en": "Sweets",      "icon": "🍯" },
+    { "id": "breakfast","name_ar": "فطور",          "name_en": "Breakfast",   "icon": "🍳" },
+    { "id": "sandwich", "name_ar": "سندويشات",      "name_en": "Sandwiches",  "icon": "🥪" }
+  ],
+  "items": [
+    {
+      "id": "karak", "category": "hot",
+      "name_ar": "شاي كرك", "name_en": "Karak Tea",
+      "desc_ar": "شاي بالحليب والهيل والزعفران", "desc_en": "Milk tea with cardamom & saffron",
+      "price": 0.300, "image": "assets/images/karak.svg", "available": true, "popular": true
+    },
+    {
+      "id": "omani-coffee", "category": "hot",
+      "name_ar": "قهوة عُمانية", "name_en": "Omani Coffee",
+      "desc_ar": "دلة صغيرة مع تمر", "desc_en": "Small dallah served with dates",
+      "price": 1.200, "image": "assets/images/dallah.svg", "available": true, "popular": true
+    },
+    {
+      "id": "latte", "category": "hot",
+      "name_ar": "لاتيه", "name_en": "Latte",
+      "desc_ar": "إسبريسو مع حليب مبخّر", "desc_en": "Espresso with steamed milk",
+      "price": 1.500, "image": "assets/images/latte.svg", "available": true
+    },
+    {
+      "id": "spanish-latte", "category": "hot",
+      "name_ar": "سبانش لاتيه", "name_en": "Spanish Latte",
+      "desc_ar": "لاتيه بالحليب المكثّف", "desc_en": "Latte with condensed milk",
+      "price": 1.700, "image": "", "available": true
+    },
+    {
+      "id": "v60", "category": "hot",
+      "name_ar": "قهوة مقطّرة V60", "name_en": "V60 Pour-over",
+      "desc_ar": "محصول اليوم — اسأل الباريستا", "desc_en": "Today's single origin — ask the barista",
+      "price": 2.000, "image": "", "available": false
+    },
+    {
+      "id": "iced-latte", "category": "cold",
+      "name_ar": "آيس لاتيه", "name_en": "Iced Latte",
+      "desc_ar": "إسبريسو وحليب بارد مع ثلج", "desc_en": "Espresso & cold milk over ice",
+      "price": 1.600, "image": "", "available": true
+    },
+    {
+      "id": "lemon-mint", "category": "cold",
+      "name_ar": "ليمون ونعناع", "name_en": "Lemon Mint",
+      "desc_ar": "عصير طازج", "desc_en": "Freshly blended",
+      "price": 1.000, "image": "", "available": true, "popular": true
+    },
+    {
+      "id": "cold-brew", "category": "cold",
+      "name_ar": "كولد برو", "name_en": "Cold Brew",
+      "desc_ar": "منقوع ١٨ ساعة", "desc_en": "Steeped for 18 hours",
+      "price": 1.800, "image": "", "available": true
+    },
+    {
+      "id": "luqaimat", "category": "sweets",
+      "name_ar": "لقيمات", "name_en": "Luqaimat",
+      "desc_ar": "مع دبس التمر والسمسم", "desc_en": "With date syrup & sesame",
+      "price": 1.100, "image": "assets/images/luqaimat.svg", "available": true, "popular": true
+    },
+    {
+      "id": "halwa-cup", "category": "sweets",
+      "name_ar": "كوب حلوى عُمانية", "name_en": "Omani Halwa Cup",
+      "desc_ar": "حلوى بالزعفران والمكسرات", "desc_en": "Saffron halwa with nuts",
+      "price": 0.900, "image": "", "available": true
+    },
+    {
+      "id": "date-cake", "category": "sweets",
+      "name_ar": "كيكة التمر", "name_en": "Date Cake",
+      "desc_ar": "مع صوص التوفي", "desc_en": "With toffee sauce",
+      "price": 1.400, "image": "", "available": true
+    },
+    {
+      "id": "chabab", "category": "breakfast",
+      "name_ar": "خبز الجباب", "name_en": "Chabab Pancakes",
+      "desc_ar": "مع الجبن والعسل", "desc_en": "With cheese & honey",
+      "price": 1.300, "image": "", "available": true
+    },
+    {
+      "id": "shakshuka", "category": "breakfast",
+      "name_ar": "شكشوكة", "name_en": "Shakshuka",
+      "desc_ar": "بيض بصلصة الطماطم مع خبز", "desc_en": "Eggs in tomato sauce with bread",
+      "price": 1.600, "image": "", "available": true
+    },
+    {
+      "id": "regag-egg", "category": "breakfast",
+      "name_ar": "خبز رخال بالبيض", "name_en": "Rakhal Bread with Egg",
+      "desc_ar": "خبز عُماني رقيق", "desc_en": "Thin Omani bread",
+      "price": 0.800, "image": "", "available": true
+    },
+    {
+      "id": "halloumi", "category": "sandwich",
+      "name_ar": "ساندويتش حلومي", "name_en": "Halloumi Sandwich",
+      "desc_ar": "حلومي مشوي، طماطم، زعتر", "desc_en": "Grilled halloumi, tomato, zaatar",
+      "price": 1.700, "image": "", "available": true
+    },
+    {
+      "id": "chicken-pesto", "category": "sandwich",
+      "name_ar": "دجاج بالبيستو", "name_en": "Chicken Pesto",
+      "desc_ar": "صدر دجاج مشوي مع صوص البيستو", "desc_en": "Grilled chicken breast with pesto",
+      "price": 2.100, "image": "", "available": true
+    },
+    {
+      "id": "tuna", "category": "sandwich",
+      "name_ar": "ساندويتش تونة", "name_en": "Tuna Sandwich",
+      "desc_ar": "تونة، ذرة، مايونيز", "desc_en": "Tuna, corn, mayo",
+      "price": 1.500, "image": "", "available": false
+    }
+  ]
+}
